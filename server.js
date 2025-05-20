@@ -17,7 +17,7 @@ const SECRET_KEY = "SONY123";
 
 // Better CORS configuration
 app.use(cors({
-  origin: 'http://localhost:3000', // Your frontend URL
+  origin: 'https://civic-port.vercel.app/', // Your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
